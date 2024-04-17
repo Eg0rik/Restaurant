@@ -8,7 +8,13 @@
 import Foundation
 import SwiftUI
 
-struct MyImageView {
+struct MyImageView:View {
+    
+    var body: some View {
+        VStack {
+            
+        }
+    }
     
 }
 
