@@ -12,11 +12,17 @@ struct MyImageView:View {
     
     var body: some View {
         VStack {
-            Image(systemName: "image")
+            Button("refresh") {
+                //refreshInDevelopment()
+            }
         }
         .onAppear {
             print("appear...")
         }
+    }
+    
+    func refreshInDevelopment() {
+        //some logic...
     }
 }
 
