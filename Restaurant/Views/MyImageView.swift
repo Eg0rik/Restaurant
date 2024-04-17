@@ -13,11 +13,14 @@ struct MyImageView:View {
     var body: some View {
         VStack {
             Button("refresh") {
-                //refresh func
+                refresh()
             }
         }
     }
     
+    func refresh() {
+        
+    }
 }
 
 //struct MyImageView:View {
