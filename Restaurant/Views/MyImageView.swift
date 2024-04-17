@@ -14,6 +14,9 @@ struct MyImageView:View {
         VStack {
             Image(systemName: "image")
         }
+        .onAppear {
+            print("appear...")
+        }
     }
 }
 
