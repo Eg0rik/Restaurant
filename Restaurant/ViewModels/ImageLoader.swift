@@ -5,10 +5,13 @@
 ////  Created by MAC on 4/12/24.
 ////
 //
-//import Foundation
-//import SwiftUI
-//
-//
+import Foundation
+import SwiftUI
+
+final class ImageLoader:ObservableObject {
+    var image:Image?
+}
+
 //final class ImageLoader:ObservableObject {
 //    
 //    var image:Image?

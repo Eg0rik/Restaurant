@@ -5,9 +5,13 @@
 ////  Created by MAC on 4/12/24.
 ////
 //
-//import Foundation
-//import SwiftUI
-//
+import Foundation
+import SwiftUI
+
+struct MyImageView {
+    
+}
+
 //struct MyImageView:View {
 //    
 //    @StateObject var imageLoader = ImageLoader()
