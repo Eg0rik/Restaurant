@@ -21,6 +21,13 @@ struct MyImageView:View {
         }
     }
     
+    func func1() {
+        
+    }
+    
+    func func2() {
+        
+    }
 }
 
 //struct MyImageView:View {
