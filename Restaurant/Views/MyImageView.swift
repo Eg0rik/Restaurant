@@ -16,6 +16,9 @@ struct MyImageView:View {
                 //refresh func
             }
         }
+        .onAppear {
+            print("appear...")
+        }
     }
     
 }
